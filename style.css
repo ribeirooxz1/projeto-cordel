@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+@font-face {
+    font-family: 'comicneuesansid';
+    src: url(fontes/comicneuesansid/ComicNeueSansID.ttf) format('opentype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'titulo';
+    src: url(fontes/comicneuesansid/arnelrounded/ArnelRounded-Regular.otf);
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    height: 15vw;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#titulo{
+    font-family: titulo;
+    font-size: 10vw;
+    font-weight: normal;
+    color: white;
+    
+}
+header > p{
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1em;
+   
+
+}
+header > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+main p {
+    font-family: comicneuesansid;
+    font-size: 3.5vw;
+    margin-left: 2vw;
+    line-height: 1.9em;
+    padding: 60px 0px;
+}
+
+footer{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: black;
+    color : white;
+    padding: 5px 0;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor02);   
+    transition-duration: 0.3s;  
+}
+
+main {
+    margin-top: 30px;
+    
+}
+
+
+
+
+.branco {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 20px 0px;
+    width: 45vw;
+}
+#branco1 {
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 110px 0px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    
+
+}
+
+#branco2{
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
